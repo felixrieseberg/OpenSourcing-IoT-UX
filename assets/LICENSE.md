@@ -1,0 +1,1 @@
+Assets in this folder are (C) Copyright by their respective owners.
