@@ -54,7 +54,8 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
-// Override theme settings (see ../template/settings.scss)
+// Overrides -----------------------------------
+
 $backgroundColor: rgb(92, 45, 145);
 $mainColor: #fff;
 $headingColor: #fff;
@@ -66,7 +67,7 @@ $headingLetterSpacing: normal;
 $headingTextTransform: none;
 $headingFontWeight: 200;
 $linkColor: #fff;
-$linkColorHover: lighten( $linkColor, 15% );
+$linkColorHover: darken( $linkColor, 40% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 $heading1Size: 2.5em;
 $heading2Size: 1.6em;
@@ -84,6 +85,24 @@ section.has-light-background
     h6
     {
         color: #222;
+    }
+}
+
+// Basics --------------------------------------
+
+.reveal img.noborder {
+    margin: 15px 0px;
+    background: none;
+    border: 0;
+    box-shadow: none;
+}
+
+// Alternative H1 ------------------------------
+.reveal {
+    h1.alt, h2.alt, h3.alt, h4.alt {
+        font-family: 'Pacifico';
+        font-weight: bolder;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, .5);
     }
 }
 
@@ -115,6 +134,12 @@ section.has-light-background
 {
     margin-bottom: 5em;
 }
+
+// Icon Group --------------------------------------
+div.icon-group {
+    font-size: 4em;
+}
+
 
 // Improve Video Background --------------------
 body > div > div.backgrounds > div.slide-background.present > video

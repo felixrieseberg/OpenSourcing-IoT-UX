@@ -37,6 +37,17 @@
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 
+.reveal img.noborder {
+  margin: 15px 0px;
+  background: none;
+  border: 0;
+  box-shadow: none; }
+
+.reveal h1.alt, .reveal h2.alt, .reveal h3.alt, .reveal h4.alt {
+  font-family: 'Pacifico';
+  font-weight: bolder;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
+
 .reveal .accent h1 {
   font-family: 'Pacifico';
   font-size: 3.5em;
@@ -51,6 +62,9 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal div.accent {
   margin-bottom: 5em; }
+
+div.icon-group {
+  font-size: 4em; }
 
 body > div > div.backgrounds > div.slide-background.present > video {
   position: fixed;
@@ -249,7 +263,7 @@ body {
   transition: color 0.15s ease; }
 
 .reveal a:hover {
-  color: white;
+  color: #999999;
   text-shadow: none;
   border: none; }
 
@@ -292,16 +306,16 @@ body {
   border-top-color: #fff; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: white; }
+  border-right-color: #999999; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: white; }
+  border-left-color: #999999; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: white; }
+  border-bottom-color: #999999; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: white; }
+  border-top-color: #999999; }
 
 /*********************************************
  * PROGRESS BAR
