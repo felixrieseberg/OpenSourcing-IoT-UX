@@ -90,18 +90,26 @@ section.has-light-background
 
 // Basics --------------------------------------
 
-.reveal img.noborder {
-    margin: 15px 0px;
-    background: none;
+.reveal img.noborder
+{
+    margin: 15px 0;
+
     border: 0;
+    background: none;
     box-shadow: none;
 }
 
 // Alternative H1 ------------------------------
-.reveal {
-    h1.alt, h2.alt, h3.alt, h4.alt {
+.reveal
+{
+    h1.alt,
+    h2.alt,
+    h3.alt,
+    h4.alt
+    {
         font-family: 'Pacifico';
         font-weight: bolder;
+
         text-shadow: 2px 2px 6px rgba(0, 0, 0, .5);
     }
 }
@@ -136,7 +144,8 @@ section.has-light-background
 }
 
 // Icon Group --------------------------------------
-div.icon-group {
+div.icon-group
+{
     font-size: 4em;
 }
 
@@ -167,19 +176,36 @@ body > div > div.backgrounds > div.slide-background.present > video
 
 // AllJoyn -------------------------------------
 
-
-.reveal .alljoyn {
-    h1 {
+.reveal .alljoyn
+{
+    h1
+    {
         font-size: 2.3em;
     }
-
-    small {
+    small
+    {
         text-align: left;
     }
 }
 
-.reveal hr {
-    border: 1px solid rgba(255, 255, 255, 0.3);
+.reveal hr
+{
+    border: 1px solid rgba(255, 255, 255, .3);
+}
+
+// Gravatar -------------------------------------
+
+.reveal .gravatar
+{
+    img
+    {
+        margin-right: 8px;
+        margin-left: 8px;
+
+        -webkit-border-radius: 50%;
+           -moz-border-radius: 50%;
+                border-radius: 50%;
+    }
 }
 
 // Theme template ------------------------------
