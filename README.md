@@ -3,7 +3,7 @@ This is the source code for the presentation shown at the 2015 Mobile World Cong
 
 **[You can open the presentation here](http://aka.ms/osux)**. If you want to check out the Cordova Alljoyn Project, you can find [all code and sample applications on GitHub](https://github.com/alljoyn-cordova).
 
-![Screenshot](.screenshot.jpg)
+![Screenshot](/.screenshot.png?raw=true)
 
 ## License
 MIT licensed
